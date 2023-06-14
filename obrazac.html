@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title> UNESCO baština</title>
+    <link rel="stylesheet" href="dizajn.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/world_heritage_logo.png" alt="UNESCO logo"></a>
+        </div>
+        <div class="naslov">
+            <h1 class="naslov">Mjesta UNESCO-ove baštine u Hrvatskoj</h1>
+        </div>      
+    </header>
+    
+    <nav>
+        <ul id="izbornik">
+            <li><a href="index.html">Naslovna</a></li>       
+            <li><a class="active" href="obrazac.html">Pretraživanje</a></li>
+            <li><a href="podaci.xml">Mjesta baštine</a></li>     
+            <li><a href="http://www.fer.unizg.hr/predmet/or">Otvoreno računarstvo</a></li>                 
+            <li><a href="http://www.fer.unizg.hr" target="_blank">FER</a></li> 
+            <li><a href="mailto:filip.konic@fer.hr">e-mail kontakt</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Pretraživanje</h2>
+        <form action="pretraga.php" method="get">
+        <table>
+            <tr>
+                <th colspan="2">Mjesto kulturne baštine</th>
+            </tr>
+            <tr>
+                <td>UNESCO ID</td>
+                <td><input type="text" name="UNESCO_ID" maxlength="4"></td>
+            </tr>
+            <tr>
+                <td>Naziv</td>
+                <td><input type="text" name="naziv"></td>
+            </tr>
+            <tr>
+                <td>Wikipedia title</td>
+                <td><input type="text" name="wikipedia_title"></td>
+            </tr>
+            <tr>
+                <td>Dio cjeline</td>
+                <td>
+                    <input type="radio" name="dio_cjeline" value="Da"><label>Da</label>
+                    <input type="radio" name="dio_cjeline" value="Ne"><label>Ne</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Naziv cjeline</td>
+                <td><input type="text" name="naziv_cjeline"></td>
+            </tr>
+            <tr>
+                <td>Vrsta</td>
+                <td>
+                    <input type="radio" name="vrsta" value="Prirodna"><label>Prirodna</label>
+                    <input type="radio" name="vrsta" value="Kulturna"><label>Kulturna</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Kriteriji</td>
+                <td>
+                    <input type="checkbox" name="kriteriji[]" value="i"><label>i</label>
+                    <input type="checkbox" name="kriteriji[]" value="ii"><label>ii</label>
+                    <input type="checkbox" name="kriteriji[]" value="iii"><label>iii</label>
+                    <input type="checkbox" name="kriteriji[]" value="iv"><label>iv</label>
+                    <input type="checkbox" name="kriteriji[]" value="v"><label>v</label>
+                    <input type="checkbox" name="kriteriji[]" value="vi"><label>vi</label>
+                    <input type="checkbox" name="kriteriji[]" value="vii"><label>vii</label>
+                    <input type="checkbox" name="kriteriji[]" value="viii"><label>viii</label>
+                    <input type="checkbox" name="kriteriji[]" value="ix"><label>ix</label>
+                    <input type="checkbox" name="kriteriji[]" value="x"><label>x</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Županija</td>
+                <td>
+                    <select name="zupanija[]" multiple>
+                    <option value="Zagrebačka">Zagrebačka</option>
+                    <option value="Krapinsko-zagorska">Krapinsko-zagorska</option>
+                    <option value="Sisačko-moslavačka">Sisačko-moslavačka</option>
+                    <option value="Karlovačka">Karlovačka</option>
+                    <option value="Varaždinska">Varaždinska</option>
+                    <option value="Koprivničko-križevačka">Koprivničko-križevačka</option>
+                    <option value="Bjelovarsko-bilogorska">Bjelovarsko-bilogorska</option>
+                    <option value="Primorsko-goranska">Primorsko-goranska</option>
+                    <option value="Ličko-senjska">Ličko-senjska</option>
+                    <option value="Virovitičko-podravska">Virovitičko-podravska</option>
+                    <option value="Požeško-slavonska">Požeško-slavonska</option>
+                    <option value="Brodsko-posavska">Brodsko-posavska</option>
+                    <option value="Zadarska">Zadarska</option>
+                    <option value="Osječko-baranjska">Osječko-baranjska</option>
+                    <option value="Šibensko-kninska">Šibensko-kninska</option>
+                    <option value="Vukovarsko-srijemska">Vukovarsko-srijemska</option>
+                    <option value="Splitsko-dalmatinska">Splitsko-dalmatinska</option>
+                    <option value="Istarska">Istarska</option>
+                    <option value="Dubrovačko-neretvanska">Dubrovačko-neretvanska</option>
+                    <option value="Međimurska">Međimurska</option>
+                    <option value="Grad Zagreb">Grad Zagreb</option>
+                    </select>
+                </td>
+
+            </tr>
+            <tr>
+                <td>Grad</td>
+                <td><input type="text" name="grad"></td>
+            </tr>
+            <tr>
+                <td>Ulica</td>
+                <td><input type="text" name="ulica"></td>
+			</tr>
+			<tr>
+				<td>Kućni broj</td> 
+				<td><input type="text" name="kucni_broj"></td>
+            </tr>
+            <tr>
+                <td>GPS koordinate</td>
+                <td><input type="text" name="GPS"></td>
+            </tr>
+            <tr>
+                <td>Ugroženost</td>
+                <td>
+                    <input type="radio" name="ugrozenost" value="DA"><label>Da</label>
+                    <input type="radio" name="ugrozenost" value="NE"><label>Ne</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Godina uvrštenja</td>
+                <td><input type="number" min="1978" max="2020" name="godina"></td>
+            </tr>
+            <tr>
+                <td>Površina</td>
+                <td><input type="text" name="povrsina"></td>
+            </tr>
+        </table>
+        <button type="submit" value="Traži">Submit</button>
+        <button type="reset" value="Reset">Reset</button>
+    </form>
+    </main>
+    
+    <footer>
+        <p>© Filip Konić 2020. Sva prava pridržana.</p>
+    </footer>
+
+</body>
+</html>

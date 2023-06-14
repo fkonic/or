@@ -1,0 +1,22 @@
+<!ELEMENT mjesta-bastine (bastina*)>
+
+<!ELEMENT bastina (naziv, wiki-title, cjelina?, kriterij+, lokacija, godina, povrsina?)>
+<!ATTLIST bastina id CDATA #REQUIRED>
+<!ATTLIST bastina vrsta (Prirodna|Kulturna) #REQUIRED>
+<!ATTLIST bastina ugrozenost (DA|NE) #REQUIRED>
+
+<!ELEMENT naziv (#PCDATA)>
+<!ELEMENT wiki-title (#PCDATA)>
+<!ELEMENT cjelina (naziv)>
+<!ELEMENT kriterij (#PCDATA)>
+
+<!ELEMENT lokacija (zupanija+, grad?, adresa?, GPS_koor)>
+<!ELEMENT zupanija (#PCDATA)>
+<!ELEMENT grad (#PCDATA)>
+<!ELEMENT adresa (ulica, kbr)>
+<!ELEMENT ulica (#PCDATA)>
+<!ELEMENT kbr (#PCDATA)>
+<!ELEMENT GPS_koor (#PCDATA)>
+
+<!ELEMENT godina (#PCDATA)>
+<!ELEMENT povrsina (#PCDATA)>

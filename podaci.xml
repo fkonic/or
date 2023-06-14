@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mjesta-bastine SYSTEM "gramatika.dtd">
+<?xml-stylesheet type="text/xsl" href="pretvorba.xsl"?>
+
+<mjesta-bastine>
+	<bastina id="98" vrsta="Prirodna" ugrozenost="NE">
+		<naziv>Plitvička jezera</naziv>
+		<wiki-title>Plitvice_Lakes_National_Park</wiki-title>
+		<kriterij>vii</kriterij>
+		<kriterij>viii</kriterij>
+		<kriterij>ix</kriterij>
+		<lokacija>
+			<zupanija>Ličko-senjska</zupanija>
+			<grad>Slunj</grad>
+			<adresa>
+				<ulica>Josipa Jovića</ulica>
+				<kbr>19</kbr>
+			</adresa>
+			<GPS_koor>44°52′50″N 15°36′58″E</GPS_koor>
+		</lokacija>
+		<godina>1979</godina>
+		<povrsina>296.85 km&#178;</povrsina>
+	</bastina>
+
+	<bastina id="809" vrsta="Kulturna" ugrozenost="NE">
+		<naziv>Kompleks Eufrazijeve bazilike u povijesnom središtu Poreča</naziv>
+		<wiki-title>Euphrasian_Basilica</wiki-title>
+		<kriterij>ii</kriterij>
+		<kriterij>iii</kriterij>
+		<kriterij>iv</kriterij>
+		<lokacija>
+			<zupanija>Istarska</zupanija>
+			<grad>Poreč</grad>
+			<adresa>
+				<ulica>Eufrazijeva ulica</ulica>
+				<kbr>22</kbr>
+			</adresa>
+			<GPS_koor>45°13′43″N 13°35′37″E</GPS_koor>
+		</lokacija>
+		<godina>1997</godina>
+		<povrsina>1.10 ha</povrsina>
+	</bastina>
+
+	<bastina id="1533" vrsta="Kulturna" ugrozenost="NE">
+		<naziv>Tvrđava Sv. Nikole</naziv>
+		<wiki-title>St._Nicholas_Fortress</wiki-title>
+		<cjelina>
+			<naziv>Mletačke utvrde od 15. do 17. stoljeća: Stato da Terra i zapadni Stato da Mar</naziv>
+		</cjelina>
+		<kriterij>iii</kriterij>
+		<kriterij>iv</kriterij>
+		<lokacija>
+			<zupanija>Šibensko-kninska</zupanija>
+			<grad>Šibenik</grad>
+			<adresa>
+				<ulica>Obala dr. Franje Tuđmana</ulica>
+				<kbr>4</kbr>
+			</adresa>
+			<GPS_koor>43.722°N 15.854°E</GPS_koor>
+		</lokacija>
+		<godina>2017</godina>
+	</bastina>
+
+	<bastina id="97" vrsta="Kulturna" ugrozenost="NE">
+		<naziv>Povijesni kompleks Splita i Dioklecijanova palača</naziv>
+		<wiki-title>Diocletian's_Palace</wiki-title>
+		<kriterij>ii</kriterij>
+		<kriterij>iii</kriterij>
+		<kriterij>iv</kriterij>
+		<lokacija>
+			<zupanija>Splitsko-dalmatinska</zupanija>
+			<grad>Split</grad>
+			<adresa>
+				<ulica>Dioklecijanova ulica</ulica>
+				<kbr>1</kbr>
+			</adresa>
+			<GPS_koor>43°30′30″N 16°26′24″E</GPS_koor>
+		</lokacija>
+		<godina>1979</godina>
+		<povrsina>20.8 ha</povrsina>
+	</bastina>
+
+	<bastina id="1133" vrsta="Prirodna" ugrozenost="NE">
+		<naziv>Nacionalni park Paklenica</naziv>
+		<wiki-title>Paklenica</wiki-title>
+		<cjelina>
+			<naziv>Bukove prašume i izvorne bukove šume Karpata i ostalih regija Europe</naziv>
+		</cjelina>
+		<kriterij>ix</kriterij>
+		<lokacija>
+			<zupanija>Zadarska</zupanija>
+			<grad>Starigrad</grad>
+			<GPS_koor>44°22′N 15°26′E</GPS_koor>
+		</lokacija>
+		<godina>2017</godina>
+		<povrsina>95 km&#178;</povrsina>
+	</bastina>
+
+	<bastina id="95" vrsta="Kulturna" ugrozenost="NE">
+		<naziv>Stari grad Dubrovnik</naziv>
+		<wiki-title>Dubrovnik</wiki-title>
+		<kriterij>i</kriterij>
+		<kriterij>iii</kriterij>
+		<kriterij>iv</kriterij>
+		<lokacija>
+			<zupanija>Dubrovačko-neretvanska</zupanija>
+			<grad>Dubrovnik</grad>
+			<GPS_koor>42°38′25″N 18°06′30″E</GPS_koor>
+		</lokacija>
+		<godina>1979</godina>
+		<povrsina>96.7 ha</povrsina>
+	</bastina>
+
+	<bastina id="810" vrsta="Kulturna" ugrozenost="NE">
+		<naziv>Povijesni grad Trogir</naziv>
+		<wiki-title>Trogir</wiki-title>
+		<kriterij>ii</kriterij>
+		<kriterij>iv</kriterij>
+		<lokacija>
+			<zupanija>Splitsko-dalmatinska</zupanija>
+			<grad>Trogir</grad>
+			<GPS_koor>43°31′0.85″N 16°15′4.91″E</GPS_koor>
+		</lokacija>
+		<godina>1997</godina>
+		<povrsina>6.4 ha</povrsina>
+	</bastina>
+
+	<bastina id="963" vrsta="Kulturna" ugrozenost="NE">
+		<naziv>Katedrala sv. Jakova</naziv>
+		<wiki-title>Šibenik_Cathedral</wiki-title>
+		<kriterij>i</kriterij>
+		<kriterij>ii</kriterij>
+		<kriterij>iv</kriterij>
+		<lokacija>
+			<zupanija>Šibensko-kninska</zupanija>
+			<grad>Šibenik</grad>
+			<adresa>
+				<ulica>Trg Republike Hrvatske</ulica>
+				<kbr>1</kbr>
+			</adresa>
+			<GPS_koor>43°44′8.38″N 15°53′20.93″E</GPS_koor>
+		</lokacija>
+		<godina>2000</godina>
+		<povrsina>0.1 ha</povrsina>
+	</bastina>
+
+	<bastina id="1240" vrsta="Kulturna" ugrozenost="NE">
+		<naziv>Starogradsko polje</naziv>
+		<wiki-title>Stari_Grad_Plain</wiki-title>
+		<kriterij>ii</kriterij>
+		<kriterij>iii</kriterij>
+		<kriterij>iv</kriterij>
+		<lokacija>
+			<zupanija>Splitsko-dalmatinska</zupanija>
+			<grad>Stari Grad</grad>
+			<GPS_koor>43°10′54″N 16°38′19″E</GPS_koor>
+		</lokacija>
+		<godina>2008</godina>
+		<povrsina>1,376.53 ha</povrsina>
+	</bastina>
+</mjesta-bastine>

@@ -1,0 +1,5 @@
+odabran je podatak designation1_type, s obzirom da se pojavljuje u koliko-toliko konzistentnom formatu.
+Podatak sadržzi kategoričku varijablu "Cultural" ili "Natural", ovisno o tipu baštine.
+
+Podatak se ekstraktira regularnim izrazom /designation1_type\s*=\s*(\w+)/ iz JSON-a koji vrati MediaWiki action API.
+Baština koja je cijeli grad ima više infoboxeva, u onom koji vrati API se uopće ne nalaze podaci o UNESCO listi.
